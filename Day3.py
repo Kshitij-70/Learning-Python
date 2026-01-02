@@ -86,3 +86,19 @@ circumference=2*3.14*radius
 print(area)
 print(circumference)
 
+
+#Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+print(len("Python") > len("Dragon"))
+#Use and operator to check if 'on' is found in both 'python' and 'dragon'
+print("on" in "python" and "on" in "dragon")
+#I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+print("jargon" in "I hope this course is not full of jargon")
+#Find the length of the text python and convert the value to float and convert it to string
+text="Python"
+print(len(text))
+print(float(len(text)))
+print(str(len(text)))
+#Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+print(7//3 == int(2.7)) 
+#Check if type of '10' is equal to type of 10
+print(type('10')==type)
